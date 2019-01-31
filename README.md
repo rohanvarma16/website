@@ -1,17 +1,17 @@
 # al-folio
 
 [![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
-[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/website/)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alshedivat/website/blob/master/LICENSE)
+[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alshedivat/blob/master/LICENSE)
 [![gitter](https://badges.gitter.im/alshedivat/al-folio.svg)](https://gitter.im/alshedivat/al-folio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 
-[![Screenshot](assets/img/full-screenshot.png)](https://alshedivat.github.io/website/)
+[![Screenshot](assets/img/full-screenshot.png)](https://alshedivat.github.io/)
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
-The emphasis is on whitespace, transparency, and academic usage: [theme demo](https://alshedivat.github.io/website/).
+The emphasis is on whitespace, transparency, and academic usage: [theme demo](https://alshedivat.github.io/).
 
 ## Getting started
 
@@ -83,7 +83,7 @@ Make photos 1/3, 2/3, or full width.
 Easily create beautiful grids within your blog posts and projects pages:
 
 <p align="center">
-  <a href="https://alshedivat.github.io/website/projects/1_project/">
+  <a href="https://alshedivat.github.io/projects/1_project/">
     <img src="assets/img/photos-screenshot.png" width="75%">
   </a>
 </p>
@@ -93,7 +93,7 @@ This theme implements Jekyll's built in code syntax highlighting with Pygments.
 Just use the liquid tags `{% highlight python %}` and `{% endhighlight %}` to delineate your code:
 
 <p align="center">
-  <a href="https://alshedivat.github.io/website/blog/2015/code/">
+  <a href="https://alshedivat.github.io/blog/2015/code/">
     <img src="assets/img/code-screenshot.png" width="75%">
   </a>
 </p>
