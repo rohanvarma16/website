@@ -1,12 +1,10 @@
 ---
 layout: post
-title: A long announcement with details
 date: 2017-10-16 16:11:00-0400
-<!-- inline: false
- -->
 inline:true
- ---
-Completed my thesis proposal successfully 
+---
+Completed my thesis proposal successfully.
+
 <!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
 ***
