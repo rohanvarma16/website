@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Rohan</strong> Varma
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="www.cmu.edu">Carnegie Mellon University</a>
 
 profile:
   align: right
