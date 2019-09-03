@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: -
 ---
 
-{% for project in site.projects %}
+<!-- {% for project in site.projects %}
 
 {% if project.redirect %}
 <div class="project">
@@ -46,3 +46,4 @@ description: A growing collection of your cool projects.
 {% endif %}
 
 {% endfor %}
+ -->

@@ -6,7 +6,7 @@ description: <a href="www.cmu.edu">Carnegie Mellon University</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   address: >
     <p>Porter Hall B-Level </p>
     <p>Carnegie Mellon University</p>
