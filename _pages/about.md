@@ -17,6 +17,7 @@ news: true
 social: true
 ---
 
-Hi, welcome to my page! My name is Rohan Varma and I am a fifth year graduate student in the ECE department at Carnegie Mellon University in Pittsburgh. I am broadly interested in machine learning, signal processing and interdisciplinary work drawing from tools in optimization and information theory. 
+Hi, welcome to my page! My name is Rohan Varma and I am a fifth year graduate student in the Electrical and Computer Engineering department at Carnegie Mellon University in Pittsburgh advised by Prof. Jelena Kovačević.
 
-This page is under construction.
+I am broadly interested in machine learning, signal processing and interdisciplinary work drawing from tools in optimization and information theory. 
+

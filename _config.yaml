@@ -16,7 +16,7 @@ last_updated: # Feb. 6th 2019 leave blank if you don't want to display last upda
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # rohanvarma16
+github_username: rohanvarma16
 twitter_username: rohanvarma16 #your Twitter handle
 linkedin_username: rohan-varma-5830a627 # your LinkedIn user name
 scholar_userid: pkqq5DsAAAAJ # your Google Scholar ID
@@ -27,26 +27,26 @@ google_analytics: UA-133914308-1 # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: website
-blog_description: a simple whitespace theme for academics
+# blog_name: website
+# blog_description: a simple whitespace theme for academics
 
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+# # Pagination
+# paginate: 4
+# permalink: /blog/:year/:title/
+# paginate_path: /blog/page:num/
 
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
+# text:
+#   pagination:
+#     newer: 'Newer'
+#     older: 'Older'
 
-# Comments
-disqus_shortname: website # put your disqus shortname
+# # Comments
+# disqus_shortname: website # put your disqus shortname
 
-# Optional features
-show_social_icons:  true
-enable_anchorjs:    false
-enable_katex:       true
+# # Optional features
+# show_social_icons:  true
+# enable_anchorjs:    false
+# enable_katex:       true
 
 # -----------------------------------------------------------------------------
 # Collections
