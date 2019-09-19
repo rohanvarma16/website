@@ -26,8 +26,8 @@ google_analytics: UA-133914308-1 # out your google-analytics code
 #-----------------------------------------------------------------------------
 #Blog
 #-----------------------------------------------------------------------------
-blog_name: website
-blog_description: a simple whitespace theme for academics
+blog_name: 
+blog_description: 
 
 #Pagination
 paginate: 4
