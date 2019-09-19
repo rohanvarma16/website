@@ -8,10 +8,9 @@ description: > # this means to ignore newlines until "url:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 url: https://rohanv.net  # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: # Feb. 6th 2019 leave blank if you don't want to display last updated
+baseurl:   # the subpath of your site, e.g. /blog/
+last_updated: Sept. 20th 2019 # Feb. 6th 2019 leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -24,13 +23,13 @@ orcid_id: # your ORCID ID
 contact_note:  Mail is preferable
 google_analytics: UA-133914308-1 # out your google-analytics code
 
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-# blog_name: website
-# blog_description: a simple whitespace theme for academics
+#-----------------------------------------------------------------------------
+#Blog
+#-----------------------------------------------------------------------------
+blog_name: website
+blog_description: a simple whitespace theme for academics
 
-# Pagination
+#Pagination
 paginate: 4
 permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
@@ -40,7 +39,7 @@ text:
     newer: 'Newer'
     older: 'Older'
 
-# Comments
+#Comments
 disqus_shortname: website # put your disqus shortname
 
 # Optional features
