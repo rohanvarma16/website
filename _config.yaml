@@ -30,23 +30,23 @@ google_analytics: UA-133914308-1 # out your google-analytics code
 # blog_name: website
 # blog_description: a simple whitespace theme for academics
 
-# # Pagination
-# paginate: 4
-# permalink: /blog/:year/:title/
-# paginate_path: /blog/page:num/
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
 
-# text:
-#   pagination:
-#     newer: 'Newer'
-#     older: 'Older'
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
 
-# # Comments
-# disqus_shortname: website # put your disqus shortname
+# Comments
+disqus_shortname: website # put your disqus shortname
 
-# # Optional features
-# show_social_icons:  true
-# enable_anchorjs:    false
-# enable_katex:       true
+# Optional features
+show_social_icons:  true
+enable_anchorjs:    false
+enable_katex:       true
 
 # -----------------------------------------------------------------------------
 # Collections

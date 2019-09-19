@@ -10,8 +10,6 @@ profile:
   address: >
     <p>Porter Hall B-Level </p>
     <p>Carnegie Mellon University</p>
-    <p>5000 Forbes Avenue</p>
-    <p>Pittsburgh, PA 15217</p>
 
 news: true
 social: true
