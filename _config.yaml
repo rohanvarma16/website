@@ -27,7 +27,7 @@ google_analytics: UA-133914308-1 # out your google-analytics code
 #Blog
 #-----------------------------------------------------------------------------
 blog_name: Research
-blog_description: Research 
+blog_description: A few of my thoughts
 
 #Pagination
 paginate: 4
