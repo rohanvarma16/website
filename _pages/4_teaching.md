@@ -5,6 +5,8 @@ title: teaching
 description: 
 ---
 
+## Teaching Assistantship
+
 * **Convex Optimization (18-660)**
 
 Spring 2019 with Prof. Giulia Fanti
