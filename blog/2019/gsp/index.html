@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Rohan Varma | Exploiting Structure in Data</title>
+  <meta name="description" content="Rohan's personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+  <link rel="shortcut icon" href="https://rohanv.net/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="https://rohanv.net/assets/css/main.css">
+  <link rel="canonical" href="https://rohanv.net/blog/2019/gsp/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Rohan</strong> Varma
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="https://rohanv.net/">about</a>
+
+        <!-- Blog -->
+        <a class="page-link" href="https://rohanv.net/blog/">blog</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+            <a class="page-link" href="https://rohanv.net/bio/">bio</a>
+          
+        
+          
+            <a class="page-link" href="https://rohanv.net/publications/">publications</a>
+          
+        
+          
+            <a class="page-link" href="https://rohanv.net/teaching/">teaching</a>
+          
+        
+          
+            <a class="page-link" href="https://rohanv.net/cv/">resume</a>
+          
+        
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="https://rohanv.net/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Exploiting Structure in Data</h1>
+    <p class="post-meta">June 19, 2019</p>
+  </header>
+
+  <article class="post-content">
+    <p>Research in graph signal processing (GSP) aims to develop tools for processing such data by providing a framework for the analysis of high-dimensional data defined on irregular graph domains. GSP extends fundamental signal processing concepts to data supported on graphs that we refer to as graph signals. In this work, we study two fraternal problems: (1) sampling and (2) reconstruction of signals on graphs. Both of these problems are eminent topics in the field of signal processing over the past decades and have meaningful implications for many real-world problems. Sampling is the task of choosing or measuring some representative subset
+of the signal such that we can interpolate and recover the whole signal. In many settings, acquiring samples is expensive and it is desirable to be able to approximate the signal as efficiently as possible. Signal reconstruction refers the task of recovering the true graph signal given noisy, incomplete, or corrupt measurements. It is evident that these two problems share a duality and are intimately tied to the underlying graph structure.</p>
+
+<p>In graph signal processing, a common assumption is that the graph signal is smooth with respect to the graph, that is, the signal coefficients do not vary much over local neighborhoods of the graph. However, this characterization is insufficient for many real-world signals that exhibit spatially inhomogeneous levels of smoothness over the graph. In social networks for example, within a given community or social circle, users’ profiles tend to be homogeneous, while within a different social circle they will be of different, yet still have homogeneous values. Consequently, the signal is often characterized by large variations between regions and small variations within regions such that there are localized discontinuities and patterns in the signal. As a result, it is necessary to develop representations and algorithms to process and analyze such {\em piecewise smooth} graph signals.  In this body of work, we propose to study the tasks of sampling and reconstruction for two complementary classes of graph signals that broadly capture characteristics of most graph-structured data: (1) smooth signals that are characterized by slow transitions with respect to graph and (2) piecewise-smooth signals that are characterized by localized behavior, abrupt discontinuities or fast transitions over the underlying graph. We examine why a one-size-fits-all approach may not always be appropriate and consequently design algorithms and frameworks specific to each graph signal model. Product graphs are a generative model that allows us to decompose a large real-world large graph into smaller graphs. We exploit this structure to alleviate the computational complexity and achieve better performance for both sampling and reconstruction.</p>
+
+<p>We consider two sampling paradigms: (1) passive sampling, and (2) active sampling. Passive sampling refers to the setting where we are constrained to strategies that are blind to any samples of the signal. That is, we design strategies by considering only the underlying graph structure and any modeling assumptions we have made. In contrast, active or adaptive sampling strategies are able to choose samples in an online fashion: the decision of where to sample next depends on all the observations made previously. We study the fundamental limits of sampling these two graph signal models under passive and active settings. We present a framework for the reconstruction or estimation of graph signals and investigate the limitations of these methods.</p>
+
+<p>The irregularity of the underlying structure of the data in contrast to the aforementioned regularity in classical signal processing makes studying these problems on graphs challenging but also compelling. A key theme throughout this work is the interplay between the graph structure and the signal that lies on it. We study how structural properties of both the graph and
+the signal on the graph inform not only how well we can perform these two tasks but also the design of algorithms and strategies to perform them efficiently.</p>
+
+<ul>
+  <li>
+    <p>Sampling Smooth Graph Signals: We present the analog of the classical sampling theory for bandlimited signals on graphs, and show extensions for efficient sampling and recovery on product graphs. We then study the fundamental statistical limits of sampling smooth graph signals and establish how the structure of the graph drives both the optimal sampling strategy, how well we can expect to do, and the performance of these algorithms. Product graphs are a generative model that allows us to decompose a large real-world large graph into smaller graphs. We develop frameworks for (randomized) sampling  that both lessen the computational complexity and achieve better performance by availing of the inherent structure in product graphs. In the semi-supervised learning setting, it is often of interest to provide a confidence score or a level of uncertainty in addition to our decision. Towards this goal, in this work, we introduce a Bayesian treatment of semi-supervised learning on graphs via sampling theory.</p>
+  </li>
+  <li>
+    <p>Reconstruction/Denoising Smooth Graph Signals: Broadly, there are two frameworks for signal reconstruction or estimation. The first, which we refer to as the synthesis framework, generally consists of constructing an appropriate basis or dictionary over the graph for the class of signals, and then regressing the observed signal y over this basis. The graph Fourier basis promotes smoothness in the sense that smooth signals are approximately bandlimited with respect to the graph Fourier basis. A straightforward way to recover the signal would be to choose the best K such that we project the signal onto the corresponding bandlimited space. We study graph signal reconstruction based on the analysis framework where we formulate an optimization problem that regularizes the smoothness criterion with a penalty function. We can extend a general form of graph signal recovery to a flexible optimization problem formulation that accounts for outliers and multiple signals. We show how we can recover smooth signals on product graphs by structuring the signal as a low-rank tensor. Tensor factorization is a decomposition method for high dimensional data that is used to estimate the prominent factors in some signal. Similarly to matrix factorization, PCA, and in graph signal processing, transforms such as spectral graph wavelets and the graph Fourier transform, tensor decomposition allows us to detect latent structure in graph data. Typical tasks built on top of this include denoising, inpainting, and anomaly detection. We study the spectral decomposition of such product graphs and show how an extension of the smoothness assumption to signals on product graphs leads to the corresponding tensor Y possessing a low-dimensional structure.</p>
+  </li>
+  <li>
+    <p>Sampling Piecewise-Smooth Graph Signals: The discontinuities in piecewise-smooth signals make the task of efficiently sampling them substantially more challenging. Unlike sampling smooth signals that have no discontinuities, the localized nature of the discontinuities in piecewise smooth signals make the detection of these discontinuities inherently decoupled from the global features of the graph signal. It then follows that the passive sampling of piecewise-smooth graph signals is a significantly harder or even futile task. Consequently, we  study the active sampling of piecewise-smooth signals by designing algorithms and strategies. As before, we seek to understand how the underlying graph structure influences both these limitations and the performance of these algorithms.</p>
+  </li>
+  <li>
+    <p>Reconstruction/Denoising Piecewise-Smooth Graph Signals: We discuss the reconstruction of piecewise-smooth graph signals from noisy or corrupted measurements and present two approaches. The first approach is based on approximating the signal with respect to a graph wavelet basis or dictionary while the second approach solves a optimization problem via the graph trend filtering framework which enforces a sparsity constraint on (higher-order) discrete graph differences. Particularly, we  compare wavelet soft-thresholding on graphs and graph-based total variation denoising for the estimation of piecewise-smooth signals on graphs. Towards our graph trend filtering framework, we introduce a family of possible non-convex sparsity penalties, including SCAD and MCP that exhibit superior reconstruction performance over $\ell_1$ minimization for the denoising of piecewise smooth graph signals. Through theoretical analyses and empirical performance, we demonstrate that the use of non-convex penalties improves the performance of GTF in terms of both reduced reconstruction error and improved support recovery, i.e. how accurately we can localize the discontinuities of the piecewise smooth signals. While the non-convexity means that in general, we may not always find the global optimum of, it often affords us many other advantages. SCAD and MCP both taper off to a constant value and hence apply less shrinkage for higher values. As a result, they mitigate the bias effect while promoting sparsity.</p>
+  </li>
+</ul>
+
+  </article>
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2020 Rohan Varma.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+        Last updated: Sept. 20th 2019.
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="https://rohanv.net/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="https://rohanv.net/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="https://rohanv.net/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="https://rohanv.net/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-133914308-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
